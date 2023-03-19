@@ -6,8 +6,9 @@ This bot allows the user to play rock paper scissors with the computer. Each use
 
 ## Usage
 1. Build the jar file with gradle.
-2. Create a new folder, where you place the created jar file and [application.properties](#applicationproperties-file-configuration).
-3. Run the jar file from the console. The generated .csv file will be located in this directory.
+2. Install PostgreSQL and create empty database.
+3. Create a new folder, where you place the created jar file and [application.properties](#applicationproperties-file-configuration).
+4. Run the jar file from the console. The generated .csv file will be located in this directory.
 
 ## application.properties file configuration
 
@@ -18,6 +19,4 @@ spring.datasource.driverClassName=
 spring.datasource.username=  
 spring.datasource.password=  
 spring.jpa.database-platform=  
-spring.jpa.hibernate.ddl-auto=update  
-spring.h2.console.enabled=true  
 logging.file.path=  
