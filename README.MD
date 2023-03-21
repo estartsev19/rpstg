@@ -8,7 +8,7 @@ This bot allows the user to play rock paper scissors with the computer. Each use
 1. Build the jar file with gradle.
 2. Install PostgreSQL and create empty database.
 3. Create a new folder, where you place the created jar file and [application.properties](#applicationproperties-file-configuration).
-4. Run the jar file from the console. The generated .csv file will be located in this directory.
+4. Run the jar file from the console.
 
 ## application.properties file configuration
 
